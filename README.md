@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Run
 
-Things you may want to cover:
+* Install Ruby
+* Install Bundler
+* Install Foreman
+* Install Node
+* Install Yarn
 
-* Ruby version
+```
+bundler install
+foreman start -f Procfile.dev
+```
 
-* System dependencies
+## TODO
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clean up React actions and side effects
+* Ensure all local dependencies are contained in source control
+* Clean up and enhance API structure
